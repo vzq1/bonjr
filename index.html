@@ -711,7 +711,7 @@
     <header class="header">
       <div>
         <p class="eyebrow" id="today-date">Saturday, September 27</p>
-        <h1 id="greeting">Bonjour, Bon</h1>
+        <h1 id="greeting">Bonjr, Bon</h1>
       </div>
       <button class="avatar glass" data-goto="settings" aria-label="Bon Bernido, open Settings">BB</button>
     </header>
@@ -2140,7 +2140,7 @@ window.BM_GOSPEL = {"2026-09-26":{"d":"Saturday of the Twenty-fifth week in Ordi
     const r = state.run;
     const running = r && !r.done;
     const hour = new Date().getHours();
-    $('greeting').textContent = hour < 12 ? 'Bonjour, Bon' : `Good ${hour < 18 ? 'afternoon' : 'evening'}, Bon`;
+    $('greeting').textContent = hour < 12 ? 'Bonjr, Bon' : `Good ${hour < 18 ? 'afternoon' : 'evening'}, Bon`;
     $('today-date').textContent = new Date().toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' });
     $('planned').textContent = fmtMins(planned());
 
