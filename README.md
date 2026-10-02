@@ -1,4 +1,4 @@
-# Bonjour
+# Bonjr
 
 Bon's morning routine app: an iPhone-style timer that walks through the whole morning, from the Gospel of the day to drying hair, with a calm voice, hands-free shower steps and an animated stretch guide.
 
@@ -7,11 +7,11 @@ Bon's morning routine app: an iPhone-style timer that walks through the whole mo
 | File | What it is |
 | --- | --- |
 | `index.html` | The app. This is the version published as the Claude artifact. |
-| `phone/Bonjour.html` | The same app wrapped as a full web page, for hosting on its own (Home Screen name: Bonjour). Rebuild it with `./build-phone.sh` after changing `index.html`. |
+| `phone/Bonjr.html` | The same app wrapped as a full web page, for hosting on its own (Home Screen name: Bonjr). Rebuild it with `./build-phone.sh` after changing `index.html`. |
 
 ## Using it on iPhone
 
-Open the app link in Safari, tap **Share → Add to Home Screen**, and name it **Bonjour**. Keep the volume up and the ringer on so the voice can be heard.
+Open the app link in Safari, tap **Share → Add to Home Screen**, and name it **Bonjr**. Keep the volume up and the ringer on so the voice can be heard.
 
 ## Credits
 

@@ -1,5 +1,5 @@
 #!/bin/sh
-# Wraps index.html as a standalone page for phone/Bonjour.html.
+# Wraps index.html as a standalone page for phone/Bonjr.html.
 cd "$(dirname "$0")"
 {
 cat <<'EOF'
@@ -13,5 +13,5 @@ cat <<'EOF'
 EOF
 cat index.html
 echo '</html>'
-} > phone/Bonjour.html
-echo "Built phone/Bonjour.html"
+} > phone/Bonjr.html
+echo "Built phone/Bonjr.html"
