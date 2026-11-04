@@ -1,17 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
   <defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2F6BFF"/><stop offset=".62" stop-color="#7A6CF5"/><stop offset="1" stop-color="#FF8FA8"/></linearGradient>
-    <radialGradient id="sun" cx=".5" cy=".38" r=".7"><stop offset="0" stop-color="#FFE38A"/><stop offset=".7" stop-color="#FFC15C"/><stop offset="1" stop-color="#FF9F5A"/></radialGradient>
+    <linearGradient id="night" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#000000"/><stop offset=".55" stop-color="#0B0A10"/><stop offset="1" stop-color="#1A1008"/></linearGradient>
+    <radialGradient id="glow" cx="512" cy="677.2" r="448.0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF8A3D" stop-opacity=".55"/><stop offset=".45" stop-color="#FF6A2B" stop-opacity=".16"/><stop offset="1" stop-color="#FF6A2B" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sun" x1="0" y1="400.0" x2="0" y2="677.2" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#FFD978"/><stop offset="1" stop-color="#FF7B32"/></linearGradient>
+    <linearGradient id="rim" x1="0" y1="400.0" x2="0" y2="677.2" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#FFF1D6"/><stop offset="1" stop-color="#FFC08A"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFC08A" stop-opacity="0"/><stop offset=".2" stop-color="#FFC08A"/><stop offset=".8" stop-color="#FFC08A"/><stop offset="1" stop-color="#FFC08A" stop-opacity="0"/></linearGradient>
+    <clipPath id="sky"><rect x="0" y="0" width="1024" height="677.2"/></clipPath>
   </defs>
-  <rect width="1024" height="1024" fill="url(#sky)"/>
-  <g fill="#FFFFFF"><path transform="translate(373.4 370.6) rotate(-38)" d="M-77.3 15.1 A77.3 77.3 0 0 1 77.3 15.1 Z"/><path transform="translate(650.6 370.6) rotate(38)" d="M-77.3 15.1 A77.3 77.3 0 0 1 77.3 15.1 Z"/></g>
-  <g stroke="#FFFFFF" stroke-width="31.9" stroke-linecap="round"><line x1="629.6" y1="715.9" x2="657.5" y2="755.8"/><line x1="394.4" y1="715.9" x2="366.5" y2="755.8"/></g>
-  <g stroke="#FFE7A8" stroke-width="25.2" stroke-linecap="round" opacity=".95"><line x1="512.0" y1="299.4" x2="512.0" y2="250.6"/><line x1="745.6" y1="463.0" x2="791.4" y2="446.3"/><line x1="745.6" y1="633.0" x2="791.4" y2="649.7"/><line x1="278.4" y1="633.0" x2="232.6" y2="649.7"/><line x1="278.4" y1="463.0" x2="232.6" y2="446.3"/></g>
-  <circle cx="512" cy="548" r="210.0" fill="#FFFFFF"/>
-  <circle cx="512" cy="548" r="179.8" fill="url(#sun)"/>
-  <g stroke="#1F2A55" stroke-linecap="round">
-    <line x1="512" y1="548" x2="465.0" y2="629.5" stroke-width="25.2"/>
-    <line x1="512" y1="548" x2="512.0" y2="415.3" stroke-width="18.5"/>
+  <rect width="1024" height="1024" fill="url(#night)"/>
+  <rect width="1024" height="1024" fill="url(#glow)"/>
+  <g clip-path="url(#sky)">
+    <g fill="none" stroke="url(#rim)" stroke-width="28.8" stroke-linecap="round"><path d="M322.9 447.4 A240.0 240.0 0 0 1 437.8 366.9"/><path d="M586.2 366.9 A240.0 240.0 0 0 1 701.1 447.4"/></g>
+    <circle cx="512" cy="595.2" r="180.8" fill="url(#sun)" stroke="url(#rim)" stroke-width="28.8"/>
+    <g stroke="#140C06" stroke-linecap="round">
+      <line x1="512" y1="595.2" x2="512.0" y2="478.4" stroke-width="19.2"/>
+      <line x1="512" y1="595.2" x2="442.7" y2="635.2" stroke-width="25.6"/>
+    </g>
   </g>
-  <circle cx="512" cy="548" r="18.5" fill="#1F2A55"/>
+  <rect x="192.0" y="672.4" width="640.0" height="9.6" rx="4.8" fill="url(#line)"/>
 </svg>
