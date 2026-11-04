@@ -1,15 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
-  <defs>
-    <clipPath id="sky"><rect x="0" y="0" width="1024" height="718.5"/></clipPath>
-  </defs>
-  <rect width="1024" height="1024" fill="#0E0E11"/>
-  <g clip-path="url(#sky)">
-    <g fill="none" stroke="#FFE7C7" stroke-width="36.0" stroke-linecap="round"><path d="M275.6 431.3 A300.0 300.0 0 0 1 419.3 330.7"/><path d="M604.7 330.7 A300.0 300.0 0 0 1 748.4 431.3"/></g>
-    <circle cx="512" cy="616.0" r="226.0" fill="none" stroke="#FFE7C7" stroke-width="36.0"/>
-    <g stroke="#FFE7C7" stroke-linecap="round">
-      <line x1="512" y1="616.0" x2="512.0" y2="470.0" stroke-width="24.0"/>
-      <line x1="512" y1="616.0" x2="425.4" y2="666.0" stroke-width="32.0"/>
-    </g>
-  </g>
-  <rect x="182.0" y="711.5" width="660.0" height="14.0" rx="7.0" fill="#FFE7C7"/>
+  <rect width="1024" height="1024" fill="#111113"/>
+  <g fill="none" stroke="#F6EBDD" stroke-width="47.5" stroke-linecap="round"><circle cx="512" cy="545.5" r="239.8"/><path d="M267.0 360.9 A306.7 306.7 0 0 1 392.2 263.1"/><path d="M631.8 263.1 A306.7 306.7 0 0 1 757.0 360.9"/><line x1="203.5" y1="433.2" x2="154.8" y2="415.5"/><line x1="820.5" y1="433.2" x2="869.2" y2="415.5"/></g>
+  <g stroke="#F6EBDD" stroke-width="47.5" stroke-linecap="round"><line x1="97.9" y1="694.1" x2="238.3" y2="694.1"/><line x1="785.7" y1="694.1" x2="926.1" y2="694.1"/></g>
+  <polyline points="512.0,392.0 512,545.5 459.3,636.8" fill="none" stroke="#FF8A3D" stroke-width="47.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
