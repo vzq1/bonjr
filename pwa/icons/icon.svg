@@ -1,23 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
   <defs>
-    <linearGradient id="night" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#000000"/><stop offset=".55" stop-color="#0B0A10"/><stop offset="1" stop-color="#1A1008"/></linearGradient>
-    <radialGradient id="glow" cx="512" cy="718.5" r="560.0" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#FF8A3D" stop-opacity=".55"/><stop offset=".45" stop-color="#FF6A2B" stop-opacity=".16"/><stop offset="1" stop-color="#FF6A2B" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="sun" x1="0" y1="372.0" x2="0" y2="718.5" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#FFD978"/><stop offset="1" stop-color="#FF7B32"/></linearGradient>
-    <linearGradient id="rim" x1="0" y1="372.0" x2="0" y2="718.5" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#FFF1D6"/><stop offset="1" stop-color="#FFC08A"/></linearGradient>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFC08A" stop-opacity="0"/><stop offset=".2" stop-color="#FFC08A"/><stop offset=".8" stop-color="#FFC08A"/><stop offset="1" stop-color="#FFC08A" stop-opacity="0"/></linearGradient>
     <clipPath id="sky"><rect x="0" y="0" width="1024" height="718.5"/></clipPath>
   </defs>
-  <rect width="1024" height="1024" fill="url(#night)"/>
-  <rect width="1024" height="1024" fill="url(#glow)"/>
+  <rect width="1024" height="1024" fill="#0E0E11"/>
   <g clip-path="url(#sky)">
-    <g fill="none" stroke="url(#rim)" stroke-width="36.0" stroke-linecap="round"><path d="M275.6 431.3 A300.0 300.0 0 0 1 419.3 330.7"/><path d="M604.7 330.7 A300.0 300.0 0 0 1 748.4 431.3"/></g>
-    <circle cx="512" cy="616.0" r="226.0" fill="url(#sun)" stroke="url(#rim)" stroke-width="36.0"/>
-    <g stroke="#140C06" stroke-linecap="round">
+    <g fill="none" stroke="#FFE7C7" stroke-width="36.0" stroke-linecap="round"><path d="M275.6 431.3 A300.0 300.0 0 0 1 419.3 330.7"/><path d="M604.7 330.7 A300.0 300.0 0 0 1 748.4 431.3"/></g>
+    <circle cx="512" cy="616.0" r="226.0" fill="#FF8A3D" stroke="#FFE7C7" stroke-width="36.0"/>
+    <g stroke="#0E0E11" stroke-linecap="round">
       <line x1="512" y1="616.0" x2="512.0" y2="470.0" stroke-width="24.0"/>
       <line x1="512" y1="616.0" x2="425.4" y2="666.0" stroke-width="32.0"/>
     </g>
   </g>
-  <rect x="112.0" y="712.5" width="800.0" height="12.0" rx="6.0" fill="url(#line)"/>
+  <rect x="182.0" y="711.5" width="660.0" height="14.0" rx="7.0" fill="#FFE7C7"/>
 </svg>
