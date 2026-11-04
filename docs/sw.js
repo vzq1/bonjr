@@ -1,5 +1,5 @@
 // Keeps Bonjr on the phone so it opens with no internet. The build stamps VERSION, so each new build replaces the old copy.
-const VERSION = 'a8188a37cb4d';
+const VERSION = '161d48854639';
 const CACHE = `bonjr-${VERSION}`;
 const FILES = ['./', 'index.html', 'manifest.webmanifest', 'icons/apple-touch-icon.png', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon-maskable-512.png'];
 
