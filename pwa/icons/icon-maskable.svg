@@ -5,8 +5,8 @@
   <rect width="1024" height="1024" fill="#0E0E11"/>
   <g clip-path="url(#sky)">
     <g fill="none" stroke="#FFE7C7" stroke-width="28.8" stroke-linecap="round"><path d="M322.9 447.4 A240.0 240.0 0 0 1 437.8 366.9"/><path d="M586.2 366.9 A240.0 240.0 0 0 1 701.1 447.4"/></g>
-    <circle cx="512" cy="595.2" r="180.8" fill="#FF8A3D" stroke="#FFE7C7" stroke-width="28.8"/>
-    <g stroke="#0E0E11" stroke-linecap="round">
+    <circle cx="512" cy="595.2" r="180.8" fill="none" stroke="#FFE7C7" stroke-width="28.8"/>
+    <g stroke="#FFE7C7" stroke-linecap="round">
       <line x1="512" y1="595.2" x2="512.0" y2="478.4" stroke-width="19.2"/>
       <line x1="512" y1="595.2" x2="442.7" y2="635.2" stroke-width="25.6"/>
     </g>
